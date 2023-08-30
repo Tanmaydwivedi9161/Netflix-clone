@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    height: 0;
+    border: border-box;
+    letter-spacing: 0!important;
+    font-family: arial;
+}
+
+header{
+    background-image: url('./netflix.jpg');
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    height: 90px;
+    width: 80%;
+    /* background-color:rgba(0,0,0,0.6);  */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url('./logo.png');
+    height: 70px;
+    width: 200px;
+    background-size: cover;
+
+}
+.right{
+    color: white;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.selection{
+    border: 1px solid white;
+    width:150px ;
+    height:40px ;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 3px;
+    
+}
+.selection i{
+    font-size: 1.3rem;
+}
+select{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 9px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+
+}
+button{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 0px;
+    font-weight: 530;
+    height: 40px;
+    border-radius: 6px;
+    padding: 9px;
+}
+.btn{
+    margin-bottom: 35px;
+}
+
+.main{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 8rem;
+    height: 400px;
+    width: 1200px;
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+   
+}
+.para1{
+    margin-top: 7rem;
+    font-size: 30px;
+}
+.para2{
+    font-size: 23px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin-top: 40px;
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    color: white;
+    font-size: 19px;
+    border: 1px solid white;
+}
+.started{
+    font-weight: 600;
+    padding: 7px;
+    height: 55px;
+    width: 170px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+body, html {
+    background: #000;
+}
+.first-section{
+    color: white;
+    height: 470px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-top: 3px solid rgb(255,255,255);
+}
+.first-head{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.image{
+    height: 300px;
+    width: 380px;
+    background-size: cover;
+    margin-top: 167px;
+}
+.text-para{
+    margin-top: 4.5rem;
+    font-size: 26px;
+}
+.text-para-second{
+    margin-top: 10rem;
+    font-size: 26px;
+}
+.text4{
+    margin-bottom: 3rem;
+}
+footer{
+    border-top: 3px solid rgb(255,255,255);
+    background-color: #000;
+    color: white;
+    height: 500px;
+}
+footer p {
+    margin-top:5rem;
+    margin-left: 6rem;
+    font-size: 18px;
+}
+.fot-can {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.fot-can ul a {
+    margin-top: 10px;
+}
+
